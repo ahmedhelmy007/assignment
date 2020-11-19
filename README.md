@@ -16,7 +16,9 @@ Additionally, make sure that the following extensions are enabled in your PHP:
 
 For more about [server requirements](https://codeigniter4.github.io/userguide/intro/requirements.html).
 
-## To get the project works
+## To get the project to work
 
-- Import database dump which is located in: app/Database/dump.sql
-- Rename env file to .env
+- Import database dump which is located in: app/Database/dump.sql to your mySQL server
+- Rename env file to .env and modify it to your database server info
+- In app/Config/App.php change $baseURL variable to the correct URL of your copy of the project
+
